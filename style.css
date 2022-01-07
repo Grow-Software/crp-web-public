@@ -1,7 +1,29 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
-body{
-    background-color: azure;
+body {
+  background-color: rgb(198, 255, 255);
+}
+nav {
+  position: fixed;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 5px 8px #9cc2c4;
+}
+.nav-home {
+  float: left;
+  text-decoration: none;
+  color: black;
+  padding: 20px 0px 20px 15px;
+  font-size: 20px;
+}
+.nav-option {
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding: 20px 15px 20px 15px;
+  border-left: 1px solid rgb(207, 207, 207);
+  font-size: 20px;
 }
