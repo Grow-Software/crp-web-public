@@ -56,3 +56,31 @@ nav {
   padding: 30px 10px 30px 10px;
   margin: auto;
 }
+.sign-in {
+  text-align: center;
+  text-shadow: 4px 4px 3px #7272727e;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.log-in-buttons {
+  width: 70px;
+  height: 20px;
+  margin: 20px;
+  color: black;
+}
+.sign-in-input {
+  padding: 5px 0px 5px 0px;
+}
+.log-in-form {
+  text-align: left;
+  margin-left: 40px;
+}
+.log-in-input {
+  width: 80%;
+  height: 20px;
+  color: black;
+}
+input[type="text"] {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}

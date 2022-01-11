@@ -20,14 +20,28 @@
     <div class="spacer"></div>
     <section>
       <div class="login">
-        <h1>Sign In</h1>
+        <h1 class="sign-in">Sign In</h1>
         <br />
-        <form>
-          <label for="f-user">Email:</label> <br />
-          <input type="text" id="f-user" name="f-user" /> <br />
-          <label for="f-pass">Password:</label> <br />
-          <input type="text" name="f-pass" id="f-pass" /> <br />
-          <input type="submit" value="Log In" />
+        <form class="log-in-form">
+          <div class="sign-in-input">
+            <label class="sign-in-input" for="f-user">Email:</label><br />
+            <input type="text" id="f-user" name="f-user" class="log-in-input" />
+            <br />
+          </div>
+          <div class="sign-in-input">
+            <label for="f-pass">Password:</label><br />
+            <input
+              type="password"
+              name="f-pass"
+              id="f-pass"
+              class="log-in-input"
+            />
+            <br />
+            <input type="submit" value="Log-In" class="log-in-buttons" />
+            <a href="registration.html"
+              ><button class="log-in-buttons">Register</button></a
+            >
+          </div>
         </form>
       </div>
     </section>
