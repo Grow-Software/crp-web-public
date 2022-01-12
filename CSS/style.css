@@ -17,14 +17,17 @@ nav {
 }
 .nav-home {
   float: left;
-  padding: 20px 0px 20px 35px;
+  padding: 20px 35px 20px 35px;
   font-size: 20px;
+  background-color: #8f8f8f;
+  border-right: 1px solid #cfcfcf;
 }
 .nav-option {
   float: right;
-  padding: 20px 15px 20px 15px;
-  border-left: 1px solid rgb(207, 207, 207);
+  padding: 20px 30px 20px 15px;
+  border-left: 1px solid #cfcfcf;
   font-size: 20px;
+  background-color: #8f8f8f;
 }
 .spacer {
   width: 100%;
